@@ -83,6 +83,7 @@ results/figures/     gráficas (PDF)
 results/tables/      tablas LaTeX generadas a partir de los datos
 results/environment.txt  hardware y software usados
 docs/Informe_Proyecto_Final.pdf  informe técnico
+docs/Presentacion_Proyecto_Final.pdf  diapositivas para la sustentación
 ```
 
 ## Columnas de `results/raw.csv`
