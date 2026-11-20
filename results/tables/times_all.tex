@@ -1,0 +1,29 @@
+\begin{tabular}{llrrrrr}
+\toprule
+$N$ & Configuraci\'on & $T_1$ secuencial & $T_{1}$ & $T_{2}$ & $T_{4}$ & $T_{8}$ \\
+\midrule
+2.5\,M & OpenMP static & 0.751 & 0.734 & 0.482 & 0.319 & 0.215 \\
+ & OpenMP static,1000 &  & 0.748 & 0.424 & 0.284 & 0.204 \\
+ & OpenMP dynamic,1000 &  & 0.765 & 0.479 & 0.280 & 0.199 \\
+ & MPI block &  & 0.748 & 0.523 & 0.338 & 0.230 \\
+ & MPI cyclic &  & 0.752 & 0.459 & 0.275 & 0.201 \\
+\midrule
+5\,M & OpenMP static & 1.998 & 1.955 & 1.313 & 0.917 & 0.603 \\
+ & OpenMP static,1000 &  & 2.025 & 1.155 & 0.786 & 0.542 \\
+ & OpenMP dynamic,1000 &  & 1.999 & 1.099 & 0.708 & 0.530 \\
+ & MPI block &  & 2.067 & 1.357 & 0.834 & 0.603 \\
+ & MPI cyclic &  & 1.997 & 1.212 & 0.795 & 0.538 \\
+\midrule
+10\,M & OpenMP static & 5.408 & 5.281 & 3.632 & 2.386 & 1.573 \\
+ & OpenMP static,1000 &  & 5.292 & 3.171 & 1.992 & 1.439 \\
+ & OpenMP dynamic,1000 &  & 5.315 & 3.213 & 1.874 & 1.432 \\
+ & MPI block &  & 5.239 & 3.734 & 2.346 & 1.598 \\
+ & MPI cyclic &  & 5.220 & 3.208 & 2.051 & 1.437 \\
+\midrule
+20\,M & OpenMP static & 14.315 & 14.196 & 10.359 & 6.327 & 4.330 \\
+ & OpenMP static,1000 &  & 14.254 & 8.506 & 5.397 & 3.886 \\
+ & OpenMP dynamic,1000 &  & 14.252 & 8.594 & 5.140 & 3.871 \\
+ & MPI block &  & 14.125 & 10.160 & 6.331 & 4.424 \\
+ & MPI cyclic &  & 13.973 & 9.134 & 5.208 & 3.938 \\
+\bottomrule
+\end{tabular}

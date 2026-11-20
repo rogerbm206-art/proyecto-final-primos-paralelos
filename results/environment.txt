@@ -1,0 +1,14 @@
+CPU: AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx
+Nucleos fisicos: 4
+Hilos logicos: 8
+Frecuencia base (MHz): 2100
+L2 (KB): 2048
+L3 (KB): 4096
+RAM (GB): 9.9
+SO: Microsoft Windows 11 Home Single Language 10.0.26200
+Compilador: gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r4) 16.1.0
+Flags: -O2 (-fopenmp para OpenMP)
+OpenMP: libgomp (GCC), _OPENMP=202111
+MPI: Microsoft MPI Startup Program [Version 10.1.12498.52]
+Python: Python 3.13.2 / matplotlib 3.10.0
+Fecha: 2026-11-20
